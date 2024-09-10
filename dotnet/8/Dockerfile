@@ -1,4 +1,4 @@
-FROM        --platform=$BUILDPLATFORM ghcr.io/8osm/images:debian
+FROM        --platform=$BUILDPLATFORM weilbyte/box:arm64v8-debian-11
 
 ENV         DEBIAN_FRONTEND noninteractive
 
