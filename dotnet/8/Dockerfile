@@ -6,7 +6,7 @@ RUN         apt-get update -y \
             && apt-get upgrade -y \
             && apt-get install -y apt-transport-https wget iproute2 \
             && apt-get update -y \
-            && apt-get install -y libgdiplus libgssapi-krb5-2 libssl1.1 libstdc++6 zlib1g
+            && apt-get install -y libgdiplus libgssapi-krb5-2 libssl1.1 libstdc++6 zlib1g libsdl2
 
 RUN         wget https://dot.net/v1/dotnet-install.sh \ 
             && chmod +x dotnet-install.sh \
